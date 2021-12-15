@@ -1,0 +1,10 @@
+/원천데이터
+m1_filter_realscore.json: 진점수 0.4 이하인 중1 학생들 
+/원천데이터/pbs
+errata_m1.txt: 중1 학생들이 맞은 문제들(중복 허용)... dictionary 형식
+m1pbs.txt: 중1 학생들이 맞은 문제들(중복 허용)... json 형식에 맞게.
+m1pbsKTGL.txt: 중1 학생들이 맞은 문제들(중복 제거된)의 testID, assessmentItemID, knowledgeTag, guessLevel 정보
+pbsirt_necessary.json: '원천데이터/2_문항IRT.json'에서 필요한 정보(testID, assessmentItemID, knowledgeTag, guessLevel)만 남겨놓은 것.
+/원천데이터/pbs/중복제거_ktgl
+m1pbsKTGL.json: m1pbsKTGL과 같음.
+m1_filter_guessLevel.txt: m1pbsKTGL.json에서 추측도 0.29 미만으로 필터링한 결과물. (중복 정보 없음)
